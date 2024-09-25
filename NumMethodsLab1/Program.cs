@@ -1,7 +1,8 @@
 ﻿using System;
 
+Console.WriteLine("Input epsilon:");
+double epsilon = Convert.ToDouble(Console.ReadLine());
 
-double epsilon = 1e-3; 
 int maxIterations = 100;
 
 Console.WriteLine("Relaxation method for the equation x^3 + 2x^2 - x - 2 = 0");
